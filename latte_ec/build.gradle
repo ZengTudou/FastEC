@@ -27,5 +27,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation project(path: ':latte_core')
+    api project(path: ':latte_core')  // implementation不传递依赖，而api可以传递依赖，compile都可以
 }

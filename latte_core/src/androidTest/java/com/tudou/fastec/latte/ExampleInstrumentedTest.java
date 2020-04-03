@@ -1,4 +1,4 @@
-package com.tudou.fastec.latte_core;
+package com.tudou.fastec.latte;
 
 import android.content.Context;
 
